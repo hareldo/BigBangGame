@@ -21,25 +21,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="server_main.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SocketExampleServer.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\Shared\SocketSendRecvTools.c">
       <Filter>Shared Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Server.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SocketExampleServer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Shared\SocketExampleShared.h">
       <Filter>Shared Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Shared\SocketSendRecvTools.h">
       <Filter>Shared Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

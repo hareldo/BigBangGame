@@ -1,5 +1,3 @@
-﻿  SocketSendRecvTools.c
-  server_main.c
-  SocketExampleServer.c
-  Generating Code...
+﻿  Server.c
+c:\users\harel\downloads\isp2017recitation10_examples (2)\isp2017recitation10_examples\server\server.c(855): warning C4312: 'type cast': conversion from 'int' to 'LPVOID' of greater size
   Server.vcxproj -> C:\Users\harel\Downloads\Isp2017Recitation10_Examples (2)\Isp2017Recitation10_Examples\x64\Debug\Server.exe
